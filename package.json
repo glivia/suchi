@@ -1,0 +1,73 @@
+{
+  "name": "suchi",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "easy-monitor": "^2.1.7",
+    "egg": "^1.7.0",
+    "egg-i18n": "^1.1.1",
+    "egg-mysql": "^3.0.0",
+    "egg-redis": "^1.0.2",
+    "egg-scripts": "^1.0.0",
+    "egg-sequelize": "^3.1.0",
+    "egg-session": "^2.1.1",
+    "egg-validate": "^1.0.0",
+    "egg-view": "^1.1.2",
+    "egg-view-ejs": "^1.1.0",
+    "egg-view-nunjucks": "^2.1.3",
+    "koa-connection-limit": "^2.1.0",
+    "koa-ip-filter": "^3.0.0",
+    "koa-maxrequests": "^1.0.0",
+    "koa-respond": "^1.0.1",
+    "koa-server-timing": "^0.2.2",
+    "koa-transform": "^1.0.1",
+    "koa-useragent": "^1.0.0",
+    "moment": "^2.18.1",
+    "mysql2": "^1.4.1"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^3.7.0",
+    "egg-ci": "^1.7.0",
+    "egg-mock": "^3.7.0",
+    "eslint": "^4.0.0",
+    "eslint-config-egg": "^4.2.0",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
+    "autod": "autod",
+    "pkgfiles": "egg-bin pkgfiles",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop"
+  },
+  "ci": {
+    "version": "6, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "egg",
+    "egg-framework"
+  ],
+  "author": "glivia.gu",
+  "files": [
+    "app",
+    "config",
+    "lib",
+    "index.js"
+  ],
+  "license": "MIT"
+}

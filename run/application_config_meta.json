@@ -1,0 +1,319 @@
+{
+  "keys": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+  "middleware": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+  "errorHandler": {
+    "match": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+  },
+  "mysql": {
+    "clients": {
+      "suchi": {
+        "host": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+        "port": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+        "user": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+        "password": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+        "database": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+      }
+    },
+    "app": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "agent": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "default": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+  },
+  "redis": {
+    "client": {
+      "host": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+      "port": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+      "password": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+      "db": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+    },
+    "default": "/Users/glivia/Documents/project/suchi/node_modules/.1.0.2@egg-redis/config/config.default.js",
+    "app": "/Users/glivia/Documents/project/suchi/node_modules/.1.0.2@egg-redis/config/config.default.js",
+    "agent": "/Users/glivia/Documents/project/suchi/node_modules/.1.0.2@egg-redis/config/config.default.js"
+  },
+  "logger": {
+    "level": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "consoleLevel": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "dir": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "encoding": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "env": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "outputJSON": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "buffer": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "appLogName": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "coreLogName": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "agentLogName": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "errorLogName": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.local.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "filesRotateBySize": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "maxFileSize": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "maxFiles": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "rotateDuration": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "maxDays": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "file": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+    },
+    "devLogger": {
+      "file": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+    }
+  },
+  "session": {
+    "key": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "maxAge": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "httpOnly": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "encrypt": "/Users/glivia/Documents/project/suchi/config/config.local.js"
+  },
+  "multipart": {
+    "fileSize": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "fileExtensions": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "whitelist": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "autoFields": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "files": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-multipart/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "dirs": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.1@egg-i18n/config/config.default.js"
+  },
+  "bodyParser": {
+    "jsonLimit": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "formLimit": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "encoding": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "strict": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "depth": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    }
+  },
+  "jsonp": {
+    "callback": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "limit": "/Users/glivia/Documents/project/suchi/config/config.local.js",
+    "csrf": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.2@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/glivia/Documents/project/suchi/node_modules/.1.5.0@egg-onerror/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-watcher/config/config.default.js",
+      "development": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-watcher/config/config.default.js"
+    }
+  },
+  "security": {
+    "domainWhiteList": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "useSession": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "cookieName": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "sessionName": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "headerName": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "bodyName": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "queryName": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "value": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.local.js",
+      "maxAge": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "value": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js",
+      "policy": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/glivia/Documents/project/suchi/node_modules/.1.12.1@egg-security/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/glivia/Documents/project/suchi/node_modules/.1.3.1@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/glivia/Documents/project/suchi/node_modules/.1.3.1@egg-development/config/config.default.js",
+    "fastReady": "/Users/glivia/Documents/project/suchi/node_modules/.1.3.1@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/glivia/Documents/project/suchi/node_modules/.1.3.1@egg-development/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/glivia/Documents/project/suchi/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "dir": "/Users/glivia/Documents/project/suchi/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/glivia/Documents/project/suchi/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "preload": "/Users/glivia/Documents/project/suchi/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "buffer": "/Users/glivia/Documents/project/suchi/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "maxFiles": "/Users/glivia/Documents/project/suchi/node_modules/.1.4.1@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.2@egg-view/config/config.default.js",
+    "mapping": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.2@egg-view/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.0@egg-view-ejs/config/config.default.js",
+    "cache": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.0@egg-view-ejs/config/config.local.js",
+    "debug": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.0@egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.0@egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.0@egg-view-ejs/config/config.default.js",
+    "strict": "/Users/glivia/Documents/project/suchi/node_modules/.1.1.0@egg-view-ejs/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/glivia/Documents/project/suchi/node_modules/.2.1.3@egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "name": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "proxy": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "version": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "description": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "dependencies": {
+      "easy-monitor": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-i18n": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-mysql": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-redis": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-sequelize": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-session": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-validate": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-view": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-view-ejs": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "koa-connection-limit": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "koa-ip-filter": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "koa-maxrequests": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "koa-respond": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "koa-server-timing": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "koa-transform": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "koa-useragent": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "moment": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "mysql2": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "autod-egg": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-bin": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-ci": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "egg-mock": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "eslint": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "supertest": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "scripts": {
+      "dev": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "test": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "test-local": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "cov": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "lint": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "ci": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "autod": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "pkgfiles": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "start": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "stop": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "url": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "keywords": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "author": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "files": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "license": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "HOME": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "rundir": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "notFound": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "sitefile": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "middlewares": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "httpClient": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "maxSockets": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "maxSockets": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "port": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js",
+      "hostname": "/Users/glivia/Documents/project/suchi/node_modules/.1.7.0@egg/config/config.default.js"
+    }
+  }
+}
